@@ -99,6 +99,6 @@ ostream &operator<<(ostream &output, const User &user){
     output<<" | Age : "<<user.age;
     output<<" | Id : "<<user.id;
     output<<" | Email : "<<user.email<< endl;
-    cout<<"================================="<<endl;
+    cout<<"=================================finish"<<endl;
     return output;
 }
