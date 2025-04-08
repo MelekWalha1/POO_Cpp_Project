@@ -1,0 +1,20 @@
+# Compiled files
+*.o
+*.out
+*.exe
+
+# Build folders
+/build/
+/bin/
+/obj/
+
+/# CMake and Make
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+
+# IDEs
+*.code-workspace
+.vscode/
+*.idea/
