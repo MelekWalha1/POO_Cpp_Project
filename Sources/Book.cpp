@@ -110,7 +110,7 @@ ostream &operator<<(ostream & output, const Book & book){
 //////////////////////////////////////
 istream &operator>>( istream & input, Book & book){
     cout<<"Enter the user information in the order"<< endl;
-    cout<<"Title "<<" Isbn "<<" Category " << " Avg Rating";
+    cout<<"Title "<<" Isbn "<<" Category " << " Avg Rating melek";
     cout<<" (space separation)"<<endl;
     input>> book.title  >> book.isbn >> book.category ;
     return input;

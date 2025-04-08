@@ -85,7 +85,7 @@ void User::operator=(const User& user){
 /////////////////////////////////////
 istream &operator>>(istream &input, User &user){
     cout<<"Enter the user information in the order"<< endl;
-    cout<<"name "<<" age "<<" email "<<" password ";
+    cout<<"name "<<" age "<<" email "<<" password melek";
     cout<<" (space separation)"<<endl;
     input>> user.name  >> user.age >> user.email >> user.password ;
     return input;
